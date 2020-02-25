@@ -11,7 +11,11 @@ export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
+    window.alert('share:Button Clicked.Check in .ts file of this page');
+  }
+
+  NotifyLocalMethod(){
+    window.alert('NotifyLocalMethod:Button Clicked.Check in .ts file of this page');
   }
 }
 
